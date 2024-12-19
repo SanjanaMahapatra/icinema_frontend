@@ -1,0 +1,287 @@
+.movie-content {
+  /* background-image: linear-gradient(90deg, rgb(26, 26, 26) 24.97%, rgb(26, 26, 26) 38.3%, rgba(26, 26, 26, 0.04) 97.47%, rgb(26, 26, 26) 100%), url("../../public/assets/pushpa-the-rule-part-2-background-img.jpg"); */
+
+  min-height: 480px;
+  /* width: 92%; */
+  padding: 32px 0px;
+  align-items: center;
+  display: flex;
+  background-repeat: no-repeat;
+  background-position: right center;
+  background-color: rgb(87 82 82);
+  position: relative;
+  margin: 0px auto;
+  max-width: 1440px;
+}
+
+.movie-poster {
+  align-items: center;
+  display: flex;
+  flex-grow: 1;
+  max-width: 1240px;
+  margin: 0px auto;
+  position: relative;
+  width: 100%;
+  padding: 0px 30px;
+}
+
+.movie-image {
+  position: relative;
+  /* top: 20px;
+  left: 20px; */
+  border-radius: 8px;
+  overflow: hidden;
+  width: 261px;
+  height: 416px;
+  flex-shrink: 0;
+  justify-content: center;
+  align-items: center;
+  display: flex;
+}
+
+.movie-child-content {
+  /* display: flex;
+  flex-direction: column; */
+  /* flex-wrap: wrap; */
+  /* align-items: flex-start;
+  align-content: center;
+  box-sizing: border-box;
+  padding-left: 50px;
+  z-index: 2; */
+  flex-grow: 1;
+  padding-left: 32px;
+  width: 520px;
+}
+
+.movie-name-content {
+  margin-top: 20px;
+  width: 100%;
+}
+
+.tagline {
+  margin-top: 20px;
+}
+
+.facts {
+  display: flex;
+  flex-direction: column;
+  flex-wrap: wrap;
+  color: white;
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 24px;
+  letter-spacing: 0.2px;
+}
+
+/* .view-movie-details {
+  min-height: 100vh;
+} */
+
+.characters-list {
+  list-style: none;
+  list-style-type: none;
+  list-style-position: inside;
+  margin: 0;
+  padding: 0;
+  display: flex;
+  justify-content: flex-start;
+  flex-wrap: wrap;
+  position: relative;
+  top: 30px;
+  left: 0;
+}
+
+div.characters-list button {
+  width: 33%;
+  flex-basis: 33%;
+  margin-bottom: 14px;
+  margin-right: 0;
+  box-sizing: border-box;
+  padding-right: 20px;
+}
+
+.profile {
+  position: relative;
+  text-align: center;
+  border-radius: 8px;
+}
+
+.profile:hover {
+  background: white;
+  color: red;
+}
+
+div.movie-languages {
+  display: flex;
+  flex-wrap: wrap;
+  background-color: rgb(229, 229, 229);
+  color: rgb(0, 0, 0);
+  padding: 2px 8px;
+  border-radius: 2px;
+  align-self: flex-start;
+  margin-top: 8px;
+}
+
+span.certification {
+  /* border: 1px solid rgba(255, 255, 255, 0.6); */
+  text-decoration: solid;
+  font-weight: 400;
+  font-size: 20px;
+  color: white;
+  line-height: 24px;
+}
+
+span.release {
+  /* border: 1px solid rgba(255, 255, 255, 0.6); */
+  text-decoration: solid;
+  font-weight: 400;
+  font-size: 20px;
+  color: white;
+  line-height: 24px;
+}
+
+span.genres {
+  /* border: 1px solid rgba(255, 255, 255, 0.6); */
+  text-decoration: solid;
+  font-weight: 400;
+  font-size: 20px;
+  color: white;
+  line-height: 24px;
+}
+
+span.runtime {
+  /* border: 1px solid rgba(255, 255, 255, 0.6); */
+  text-decoration: solid;
+  font-weight: 400;
+  font-size: 20px;
+  color: white;
+  line-height: 24px;
+}
+
+.movie-description-content {
+  /* display: flex; */
+  /* flex-wrap: wrap; */
+  /* margin: 50px;
+  padding: 20px; */
+  position: relative;
+  /* top: 0; */
+  /* left: 30px; */
+  /* margin-left: -10px;
+  margin-top: -10px; */
+  padding-bottom: 10px;
+}
+
+.section-movie-content {
+  margin-top: 5px;
+  width: 100%;
+  background-color: rgb(26, 26, 26);
+}
+
+.movie-name-header {
+  color: white;
+  font-size: 36px;
+  font-weight: 500;
+}
+
+.movie-rating-display {
+  padding: 0px;
+  margin-top: 24px;
+}
+
+.movie-facts {
+  margin-top: 20px;
+  display: flex;
+}
+
+.facts-dots {
+  padding: 0px 8px;
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 24px;
+  letter-spacing: 0.2px;
+}
+
+.movie-overview {
+  margin: 0;
+  padding: 0;
+  position: relative;
+  left: 0;
+  top: 0;
+}
+
+
+
+@media (min-width: 632px) and (max-width: 767px) {
+  .movie-facts {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+  }
+  .facts-dots {
+    display: none;
+  }
+}
+
+/* @media (max-width: 632px) {
+  .movie-facts {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+  }
+  .facts-dots {
+    display: none;
+  }
+} */
+
+@media (max-width: 632px) {
+  .movie-poster {
+    display: block;
+  }
+
+  .movie-image {
+    width: 100%;
+    position: relative;
+    z-index: 3;
+    display: inline-flex;
+  }
+
+  .movie-child-content {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+  }
+}
+
+@media (max-width: 595px) {
+  .movie-child-content {
+    display: block;
+    margin-top: 15px;
+    padding: 0;
+    text-align: justify;
+  }
+}
+
+@media (min-width: 500px) and (max-width : 595px) {
+  .section-movie-content {
+    overflow: auto;
+
+  }
+}
+
+@media (max-width : 500px) {
+  div.character-list button{
+    flex-basis: 0%;
+    width: 0%;
+  }
+}
+
+@media (min-width:500px) and (max-width: 814px) {
+  div.characters-list button {
+    width: 100%;
+    flex-basis: 100%;
+  }
+
+  .movie-facts {
+    display: block;
+  }
+}

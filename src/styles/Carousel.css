@@ -1,0 +1,21 @@
+.slick-dots {
+  bottom: 30px !important;
+}
+
+.slick-dots li button:before {
+  font-size: 10px;
+  color: rgba(255, 255, 255, 0.5) !important;
+  opacity: 1 !important;
+}
+
+.slick-dots li.slick-active button:before {
+  color: #fff !important;
+  transform: scale(1.2);
+  opacity: 1 !important;
+}
+
+.carousel-img {
+  pointer-events: none !important;
+  outline: none !important;
+  user-select: none !important;
+}

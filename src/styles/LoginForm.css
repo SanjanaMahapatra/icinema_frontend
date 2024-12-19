@@ -1,0 +1,37 @@
+@keyframes slideInFromTop {
+    from {
+      transform: translateY(-15%);
+      opacity: 0;
+    }
+    to {
+      transform: translateY(0);
+      opacity: 1;
+    }
+  }
+  
+  .modal.fade.show .modal-dialog {
+    animation: slideInFromTop 0.5s ease-out;
+  }
+
+.modal-header {
+  background-color: #f84464;
+  color: white;
+}
+
+.modal-title {
+  font-weight: bold;
+}
+
+.form-label {
+  color: #656464;
+  font-weight: 600;
+}
+
+.text-danger {
+  font-size: 1rem;
+}
+
+.btn-danger {
+  background-color: #f84464;
+  border-color: #f84464;
+}

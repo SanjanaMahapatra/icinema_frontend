@@ -1,0 +1,29 @@
+.search-main {
+  width: 100%;
+  overflow: hidden;
+}
+
+.search-content-container {
+  display: flex;
+  flex-flow: row;
+  justify-content: flex-start;
+  opacity: 1;
+  cursor: text;
+  /* width: calc(100% - 134px); */
+  max-width: 549px;
+  background-color: rgb(255, 255, 255);
+  border: 1px solid rgb(238, 238, 238);
+  border-radius: 4px;
+  align-items: center;
+}
+
+.search-input {
+  width: calc(100% - 50px);
+  border: none;
+  background: white;
+  box-shadow: none;
+  font-size: 14px;
+  color: rgb(153, 153, 153);
+  outline: 0px;
+  max-width: 500px;
+}

@@ -1,0 +1,28 @@
+.overflow-scroll {
+  overflow-y: scroll;
+}
+
+button {
+  font-weight: 600;
+}
+
+.accordion-button:not(.collapsed),
+.accordion-button:focus,
+.accordion-item {
+  border: none;
+  box-shadow: none;
+}
+
+.accordion-button:not(.collapsed){
+  color: #212529;
+  background-color: transparent;
+}
+
+.filter-card {
+  overflow: scroll;
+  margin: 0.1rem 0.1rem 0.1rem 0;
+}
+
+.form-check-input, .form-check-input {
+  border-color:  #c6c6c6 !important;
+}

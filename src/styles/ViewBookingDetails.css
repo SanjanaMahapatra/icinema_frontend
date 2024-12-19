@@ -1,0 +1,224 @@
+.order-summary {
+  position: relative;
+  background: #fff;
+}
+
+.payment-container {
+  min-height: 100vh;
+}
+
+.circle-left {
+  left: -28px;
+  box-shadow: inset -1px 0 0 #dfe3e7;
+  display: inline-block;
+  position: absolute;
+  top: 65%;
+  z-index: 1;
+  width: 22px;
+  height: 22px;
+  background: #f2f2f2;
+  border-radius: 50%;
+}
+
+.circle-right {
+  right: -28px;
+  box-shadow: inset -1px 0 0 #dfe3e7;
+  display: inline-block;
+  position: absolute;
+  top: 65%;
+  z-index: 1;
+  width: 22px;
+  height: 22px;
+  background: #f2f2f2;
+  border-radius: 50%;
+}
+
+.summary-details {
+  list-style: none;
+  font-size: 100%;
+  font-weight: 400;
+  margin: 0;
+  padding: 0;
+}
+
+.left-title {
+  float: left;
+}
+
+.right-title {
+  float: right;
+  text-align: right;
+}
+
+.price-summary {
+  display: inline-block;
+  padding-top: 8px;
+  font-size: 11px;
+  text-align: left;
+  line-height: 18px;
+  width: 100%;
+  color: #666;
+}
+
+.ticket-category {
+  font-size: 12px;
+  color: #1f2533;
+}
+
+.ticket-quantity {
+  font-size: 12px;
+  color: #1f2533;
+}
+
+.screenInfo {
+  font-size: 12px;
+  color: #1f2533;
+}
+
+.price-amount {
+  font-size: 12px;
+  color: #1f2533;
+}
+
+.total-amount-payable {
+  background: #fffcdc !important;
+  font-size: 15px;
+  font-weight: bolder;
+  width: 100%;
+  bottom: 0;
+  position: absolute;
+  left: 0;
+}
+
+.payment-options {
+  position: relative;
+  cursor: pointer;
+  text-align: left;
+  font-size: 12px;
+  clear: both;
+  padding: 15px 20px;
+  background: #f7f7f7;
+  border-bottom: 1px solid #f0f0f0;
+  margin-right: -1px;
+  color: #0e1422;
+}
+
+.credit-card-body {
+  float: left;
+  position: relative;
+  width: 70%;
+  background: #fff;
+  border-left: 1px solid #f0f0f0;
+  min-height: 405px;
+}
+
+@media (min-width: 768px) {
+  .credit-card-body {
+    display: block;
+  }
+}
+
+@media (min-width: 320px) and (max-width: 767px) {
+  .credit-card-body {
+    width: 100%;
+  }
+}
+
+.credit-card-body-1 {
+  padding: 20px;
+  font-size: 12px;
+  display: block;
+}
+
+.credit-card-child {
+  border-radius: 5px;
+  box-shadow: 0 3px 0 #c9ccd2;
+  padding: 25px 22px 30px;
+  margin-bottom: 20px;
+  position: relative;
+  background: linear-gradient(
+    125deg,
+    #dadee3 0,
+    #dadee3 50%,
+    #d2d6de 51%,
+    #d2d6de 100%
+  );
+  /* max-width: 340px; */
+}
+
+.card-no {
+  position: relative;
+}
+.card-name {
+  position: relative;
+}
+
+.card-no-1 {
+  width: 100%;
+  padding: 9px;
+  border: 0;
+  box-shadow: inset 2px 1px 0 #bec1c9;
+  border-radius: 1px;
+}
+
+.right-title-2 {
+  float: right;
+  text-align: left;
+  width: 80%;
+}
+
+.left-title-2 {
+  float: left;
+  width: 20%;
+}
+
+.expiry {
+  position: relative;
+}
+
+.card-no-2 {
+  width: 100%;
+  padding: 9px;
+  border: 0;
+  box-shadow: inset 2px 1px 0 #bec1c9;
+  border-radius: 1px;
+  letter-spacing: 3px;
+}
+
+span > .expiry-month .expiry-year {
+  float: left;
+  width: 40px;
+  padding-left: 2px;
+  padding-right: 2px;
+  position: relative;
+}
+
+.bottom-section {
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-start;
+}
+
+
+.bottom-facts {
+  display: block;
+  width: 10em;
+  height: 4em;
+}
+
+.card-type:hover {
+  background: #c9ccd2;
+}
+
+.errors {
+  font-size: 1em !important;
+}
+
+@media (max-width : 960px) {
+  .left-title-2 {
+    width: 100%;
+  }
+  .right-title-2 {
+    width: 100%;
+  }
+}

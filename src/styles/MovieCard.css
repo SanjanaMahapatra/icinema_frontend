@@ -1,0 +1,43 @@
+.movie-card {
+  width: 210px;
+  margin-right: 15px;
+}
+
+.img-class {
+  display: flex;
+  align-items: center;
+  overflow: hidden;
+  width: 100%;
+  margin-bottom: 8px;
+  border-radius: 10px;
+  position: relative;
+}
+
+.image {
+  object-fit: cover;
+  width: 100%;
+  height: auto;
+}
+
+.movie-title {
+  color: rgb(34, 34, 34);
+  font-size: 18px;
+  font-weight: 600;
+  margin-bottom: 4px;
+  word-break: break-word;
+}
+
+.movie-genre {
+  color: rgb(102, 102, 102);
+  font-size: 16px;
+  word-break: break-word;
+}
+
+.rating {
+  position: absolute;
+  bottom: 0;
+  background-color: black;
+  color: white;
+  width: 100%;
+  border-top: 1px solid #3b3b3b;
+}

@@ -1,0 +1,95 @@
+.navbar-right {
+  display: flex;
+  align-items: center;
+  justify-content: flex-end;
+  width: 100%;
+  height: 100%;
+}
+
+.modal-div {
+  width: calc(100vw - 48px);
+  height: 94vh;
+  max-width: 1004px;
+  max-height: 300px;
+  border-radius: 24px;
+  border: 1px solid hsla(0, 0%, 6%, 0.13);
+  background: #fff;
+  position: relative;
+  overflow: hidden;
+  padding: 24px 42px;
+  box-sizing: border-box;
+}
+
+.modal {
+  background: rgb(0, 0, 0, 0.5);
+}
+
+.modal-backdrop {
+  display: none;
+}
+
+.city-header {
+  font-size: 20px;
+  color: #101010;
+  font-weight: 700;
+  line-height: 24px;
+  letter-spacing: -0.32px;
+  text-align: center;
+  padding: 10px;
+}
+
+.choose-city {
+  font-size: 20px;
+  color: #101010;
+  font-weight: 700;
+  line-height: 24px;
+  letter-spacing: -0.32px;
+  margin-top: 24px;
+}
+
+.city-menu-selection {
+  height: unset;
+  overflow: unset;
+  display: flex;
+  gap: 16px;
+  flex-wrap: wrap;
+  margin-top: 24px;
+  list-style: none;
+  justify-content: space-between;
+  /* height: 42px;
+  overflow: hidden; */
+}
+
+.city-selection {
+  cursor: pointer !important;
+}
+
+.city-menu-selection .city-selection {
+  background-color: #f5f9fe;
+  min-width: 135px;
+  padding: 8px 16px;
+  box-sizing: border-box;
+  list-style: none;
+}
+
+.modal-div .city-menu-selection .city-selection {
+  text-align: center;
+  border: 1px solid #e0e0e0;
+  border-radius: 96px;
+  cursor: pointer;
+  font-size: 14px;
+  color: #101010;
+  font-weight: 500;
+  line-height: 20px;
+  letter-spacing: -0.08px;
+  text-decoration: none;
+}
+
+.modal-cross {
+  position: absolute;
+  width: 12px !important;
+  height: 12px !important;
+  background-size: 18px;
+  right: 42px;
+  top: 55px;
+}
